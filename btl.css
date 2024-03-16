@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo img{
+    width: 5%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+header{
+    background-color: rgb(65, 239, 7);
+    color: white;
+    padding: 20px;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 0px;
+}
+main{
+    padding: 50px;
+
+}
+.section{
+    margin-bottom: 50px;
+}
+.section p{
+    text-align: center;
+}
+.section h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 20px;
+    color: coral;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product{
+    width: calc(33.3% - 20px);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.product img{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+.product h3{
+    margin: 0;
+
+}
+.product p{
+    margin: 10px 0;
+}
+.product button{
+    background-color: rgb(246, 248, 248);
+    color: white;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    border-radius:5px ;
+    cursor: pointer;
+}
+section form{
+    margin-left: 35%;
+}
+section form input{
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+}
